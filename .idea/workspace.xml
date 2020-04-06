@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2ca6ca4c-7f28-40a6-bd76-e77bc1ee9938" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1a2IjrlJCYeQU700EukVqt8RYrr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager" selected="Application.DisplayConsumerApplication (1)">
+    <configuration name="DisplayConsumerApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.aws.v2.kinesis.consumer.DisplayConsumerApplication" />
+      <module name="sample-kinesis-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.aws.v2.kinesis.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DisplayConsumerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.aws.v1.kinesis.consumer.DisplayConsumerApplication" />
+      <module name="sample-kinesis-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.aws.v1.kinesis.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReplicationConsumerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.aws.v1.dynamodb.streams.consumer.ReplicationConsumerApplication" />
+      <module name="sample-kinesis-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.aws.v1.dynamodb.streams.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleStreamsProducer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.aws.v1.kinesis.producer.SimpleStreamsProducer" />
+      <module name="sample-kinesis-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.aws.v1.kinesis.producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleStreamsProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.aws.v2.kinesis.producer.SimpleStreamsProducer" />
+      <module name="sample-kinesis-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.aws.v2.kinesis.producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DisplayConsumerApplication (1)" />
+        <item itemvalue="Application.SimpleStreamsProducer" />
+        <item itemvalue="Application.DisplayConsumerApplication" />
+        <item itemvalue="Application.SimpleStreamsProducer (1)" />
+        <item itemvalue="Application.ReplicationConsumerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ca6ca4c-7f28-40a6-bd76-e77bc1ee9938" name="Default Changelist" comment="" />
+      <created>1585927399675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585927399675</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="553" y="130" key="#com.intellij.ide.util.MemberChooser" timestamp="1585993585005">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="553" y="130" key="#com.intellij.ide.util.MemberChooser/0.23.1440.804@0.23.1440.804" timestamp="1585993585005" />
+    <state x="503" y="150" key="#xdebugger.evaluate" timestamp="1585992893474">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="503" y="150" key="#xdebugger.evaluate/0.23.1440.804@0.23.1440.804" timestamp="1585992893474" />
+    <state width="1239" height="157" key="GridCell.Tab.0.bottom" timestamp="1586138257302">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="256" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586137056873" />
+    <state width="1239" height="252" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1586014439751" />
+    <state width="1239" height="157" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1586138257302" />
+    <state width="1239" height="157" key="GridCell.Tab.0.center" timestamp="1586138257301">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="256" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586137056871" />
+    <state width="1239" height="252" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1586014439751" />
+    <state width="1239" height="157" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1586138257301" />
+    <state width="1239" height="157" key="GridCell.Tab.0.left" timestamp="1586138257301">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="256" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586137056871" />
+    <state width="1239" height="252" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1586014439750" />
+    <state width="1239" height="157" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1586138257301" />
+    <state width="1239" height="157" key="GridCell.Tab.0.right" timestamp="1586138257302">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="256" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586137056872" />
+    <state width="1239" height="252" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1586014439751" />
+    <state width="1239" height="157" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1586138257302" />
+    <state width="973" height="172" key="GridCell.Tab.1.bottom" timestamp="1586013999795">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="973" height="172" key="GridCell.Tab.1.bottom/0.23.1440.804@0.23.1440.804" timestamp="1586013999795" />
+    <state width="1358" height="239" key="GridCell.Tab.1.bottom/0.23.1440.806@0.23.1440.806" timestamp="1585928883464" />
+    <state width="973" height="172" key="GridCell.Tab.1.center" timestamp="1586013999794">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="973" height="172" key="GridCell.Tab.1.center/0.23.1440.804@0.23.1440.804" timestamp="1586013999794" />
+    <state width="1358" height="239" key="GridCell.Tab.1.center/0.23.1440.806@0.23.1440.806" timestamp="1585928883463" />
+    <state width="973" height="172" key="GridCell.Tab.1.left" timestamp="1586013999794">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="973" height="172" key="GridCell.Tab.1.left/0.23.1440.804@0.23.1440.804" timestamp="1586013999794" />
+    <state width="1358" height="239" key="GridCell.Tab.1.left/0.23.1440.806@0.23.1440.806" timestamp="1585928883463" />
+    <state width="973" height="172" key="GridCell.Tab.1.right" timestamp="1586013999795">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="973" height="172" key="GridCell.Tab.1.right/0.23.1440.804@0.23.1440.804" timestamp="1586013999795" />
+    <state width="1358" height="239" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1585928883464" />
+    <state x="398" y="196" width="683" height="486" key="find.popup" timestamp="1585928502003">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="398" y="196" width="683" height="486" key="find.popup/0.23.1440.806@0.23.1440.806" timestamp="1585928502003" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/aws/v2/kinesis/producer/SimpleStreamsProducer.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/aws/v1/kinesis/consumer/DisplayConsumerApplication.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/aws/v2/kinesis/consumer/DisplayConsumerApplication.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/aws/v1/kinesis/consumer/DisplayConsumer.java</url>
+          <line>167</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/aws/v1/kinesis/consumer/DisplayConsumer.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/aws/v1/kinesis/consumer/DisplayConsumer.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/aws/v1/kinesis/consumer/DisplayConsumer.java</url>
+          <line>172</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/aws/v1/kinesis/producer/SimpleStreamsProducer.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/aws/v2/kinesis/consumer/DisplayConsumer.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/aws/v2/kinesis/consumer/DisplayConsumer.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/aws/v2/kinesis/producer/SimpleStreamsProducer.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/aws/v2/kinesis/consumer/DisplayConsumer.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/software/amazon/kinesis/amazon-kinesis-client/2.0.0/amazon-kinesis-client-2.0.0.jar!/software/amazon/kinesis/coordinator/Scheduler.class</url>
+          <line>176</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/software/amazon/kinesis/amazon-kinesis-client/2.0.0/amazon-kinesis-client-2.0.0.jar!/software/amazon/kinesis/coordinator/Scheduler.class</url>
+          <line>124</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/aws/v2/kinesis/consumer/DisplayConsumer.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

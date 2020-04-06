@@ -1,0 +1,103 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.example.aws</groupId>
+	<artifactId>sample-kinesis-consumer</artifactId>
+	<version>1.0.0</version>
+	<name>sample-kinesis-consumer</name>
+	<description>Sample consumer for Amazon Kinesis Streams and Amazon DynamoDB Streams</description>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
+
+		<java.version>1.8</java.version>
+		<aws-java-sdk.v1.version>1.11.380</aws-java-sdk.v1.version>
+		<aws-java-sdk.v2.version>2.0.0</aws-java-sdk.v2.version>
+		<amazon-kinesis-client.v1.version>1.9.2</amazon-kinesis-client.v1.version>
+		<amazon-kinesis-client.v2.version>2.0.0</amazon-kinesis-client.v2.version>
+		<dynamodb-streams-kinesis-adapter.version>1.4.0</dynamodb-streams-kinesis-adapter.version>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven-compiler-plugin.version}</version>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>com.amazonaws</groupId>
+				<artifactId>aws-java-sdk-bom</artifactId>
+				<version>${aws-java-sdk.v1.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.google.common/google-collect -->
+			<dependency>
+				<groupId>com.google.common</groupId>
+				<artifactId>google-collect</artifactId>
+				<version>0.5</version>
+			</dependency>
+
+			<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+			<dependency>
+				<groupId>com.google.guava</groupId>
+				<artifactId>guava</artifactId>
+				<version>28.2-jre</version>
+			</dependency>
+
+
+			<dependency>
+				<groupId>software.amazon.awssdk</groupId>
+				<artifactId>bom</artifactId>
+				<version>${aws-java-sdk.v2.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>amazon-kinesis-client</artifactId>
+			<version>${amazon-kinesis-client.v1.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>dynamodb-streams-kinesis-adapter</artifactId>
+			<version>${dynamodb-streams-kinesis-adapter.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<!-- TODO: Add KCL 2.0 dependency to your local maven repository -->
+		<!-- mvn install:install-file -Dfile=amazon-kinesis-client-2.0.0.jar -DgroupId=software.amazon.kinesis 
+			-DartifactId=amazon-kinesis-client -Dversion=2.0.0 -Dpackaging=jar -DgeneratePom=true -->
+		<dependency>
+			<groupId>software.amazon.kinesis</groupId>
+			<artifactId>amazon-kinesis-client</artifactId>
+			<version>${amazon-kinesis-client.v2.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.6.4</version>
+		</dependency>
+	</dependencies>
+</project>
