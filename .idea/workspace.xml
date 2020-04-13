@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ca6ca4c-7f28-40a6-bd76-e77bc1ee9938" name="Default Changelist" comment="" />
+    <list default="true" id="2ca6ca4c-7f28-40a6-bd76-e77bc1ee9938" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/aws/v2/kinesis/consumer/DisplayConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/aws/v2/kinesis/consumer/DisplayConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aws/v2/kinesis/consumer/DisplayConsumerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aws/v2/kinesis/consumer/DisplayConsumerApplication.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1a2IjrlJCYeQU700EukVqt8RYrr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,10 +31,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="Application.DisplayConsumerApplication (1)">
+  <component name="RunManager" selected="Application.SimpleStreamsProducer">
     <configuration name="DisplayConsumerApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.aws.v2.kinesis.consumer.DisplayConsumerApplication" />
       <module name="sample-kinesis-consumer" />
@@ -93,8 +103,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DisplayConsumerApplication (1)" />
         <item itemvalue="Application.SimpleStreamsProducer" />
+        <item itemvalue="Application.DisplayConsumerApplication (1)" />
         <item itemvalue="Application.DisplayConsumerApplication" />
         <item itemvalue="Application.SimpleStreamsProducer (1)" />
         <item itemvalue="Application.ReplicationConsumerApplication" />
@@ -135,29 +145,33 @@
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state x="503" y="150" key="#xdebugger.evaluate/0.23.1440.804@0.23.1440.804" timestamp="1585992893474" />
-    <state width="1239" height="157" key="GridCell.Tab.0.bottom" timestamp="1586138257302">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state width="1239" height="335" key="GridCell.Tab.0.bottom" timestamp="1586228788748">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1398" height="256" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586137056873" />
-    <state width="1239" height="252" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1586014439751" />
+    <state width="1239" height="335" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1586228788748" />
+    <state width="1239" height="335" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1586141527121" />
     <state width="1239" height="157" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1586138257302" />
-    <state width="1239" height="157" key="GridCell.Tab.0.center" timestamp="1586138257301">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state width="1239" height="335" key="GridCell.Tab.0.center" timestamp="1586228788747">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1398" height="256" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586137056871" />
-    <state width="1239" height="252" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1586014439751" />
+    <state width="1239" height="335" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1586228788747" />
+    <state width="1239" height="335" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1586141527119" />
     <state width="1239" height="157" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1586138257301" />
-    <state width="1239" height="157" key="GridCell.Tab.0.left" timestamp="1586138257301">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state width="1239" height="335" key="GridCell.Tab.0.left" timestamp="1586228788747">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1398" height="256" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586137056871" />
-    <state width="1239" height="252" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1586014439750" />
+    <state width="1239" height="335" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1586228788747" />
+    <state width="1239" height="335" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1586141527118" />
     <state width="1239" height="157" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1586138257301" />
-    <state width="1239" height="157" key="GridCell.Tab.0.right" timestamp="1586138257302">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state width="1239" height="335" key="GridCell.Tab.0.right" timestamp="1586228788747">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1398" height="256" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586137056872" />
-    <state width="1239" height="252" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1586014439751" />
+    <state width="1239" height="335" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1586228788747" />
+    <state width="1239" height="335" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1586141527120" />
     <state width="1239" height="157" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1586138257302" />
     <state width="973" height="172" key="GridCell.Tab.1.bottom" timestamp="1586013999795">
       <screen x="0" y="23" width="1440" height="804" />
@@ -199,7 +213,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/aws/v2/kinesis/consumer/DisplayConsumerApplication.java</url>
-          <line>36</line>
+          <line>33</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

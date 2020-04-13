@@ -4,10 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.UUID;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.Future;
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.TimeoutException;
+import java.util.concurrent.*;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -54,10 +51,12 @@ public class DisplayConsumerApplication {
 				configsBuilder.retrievalConfig()
 		);
 
+		ExecutorService es = Executors.newFixedThreadPool(3);
+		es.execute(scheduler);
 		//Thread schedulerThread = new Thread(scheduler);
 		//schedulerThread.setDaemon(true);
 		//schedulerThread.start();
-		scheduler.run();
+		//scheduler.run();
 
 		System.out.println("Press enter to shutdown");
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
